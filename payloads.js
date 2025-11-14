@@ -85,7 +85,7 @@ function Loadpayloadonline(PLfile) {
 // PSFree Fix
 
 function load_PSFreeFix(){
-    const Confirmation = confirm("Are you sure you want to load the PSFree Fix payload?");
+    const Confirmation = confirm("هل أنت متأكد أنك تريد تحميل الحمولة PSFree Fix؟");
     if (Confirmation) {
         // First try local loading through GoldHen
         Loadpayloadlocal("./payloads/ps4-psfree-fix.bin");
@@ -100,7 +100,7 @@ function load_PSFreeFix(){
 
 // App2USB - Transfer Apps to USB
 function load_app2usb(){
-    const Confirmation = confirm("Load App2USB payload? This allows transferring applications to USB storage.");
+    const Confirmation = confirm("هل تريد تحميل حمولة App2USB؟ هذا يسمح بنقل التطبيقات إلى وحدة تخزين USB.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/app2usb.bin");
         if (document.getElementById('log')) {
@@ -112,7 +112,7 @@ function load_app2usb(){
 
 // AppCache Install
 function load_appcache_install(){
-    const Confirmation = confirm("Load AppCache Install payload?");
+    const Confirmation = confirm("تحميل حمولة تثبيت AppCache؟");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/appcache-install.bin");
         if (document.getElementById('log')) {
@@ -124,7 +124,7 @@ function load_appcache_install(){
 
 // Backup
 function load_backup(){
-    const Confirmation = confirm("Load Backup payload? This will backup your system data.");
+    const Confirmation = confirm("هل تريد تحميل حمولة احتياطية؟ سيؤدي هذا إلى نسخ بيانات نظامك احتياطيًا.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/backup.bin");
         if (document.getElementById('log')) {
@@ -136,7 +136,7 @@ function load_backup(){
 
 // Disable Updates
 function load_disable_updates(){
-    const Confirmation = confirm("Load Disable Updates payload? This will block system updates.");
+    const Confirmation = confirm("هل تريد تعطيل حمولة التحديثات؟ سيؤدي هذا إلى حظر تحديثات النظام.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/disable-updates.bin");
         if (document.getElementById('log')) {
@@ -148,7 +148,7 @@ function load_disable_updates(){
 
 // Enable Updates
 function load_enable_updates(){
-    const Confirmation = confirm("Load Enable Updates payload? This will allow system updates.");
+    const Confirmation = confirm("هل تريد تحميل حمولة تفعيل التحديثات؟ هذا سيسمح بتحديثات النظام.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/enable-updates.bin");
         if (document.getElementById('log')) {
@@ -160,7 +160,7 @@ function load_enable_updates(){
 
 // FTP Server
 function load_ftp(){
-    const Confirmation = confirm("Load FTP Server payload? This will start an FTP server on your PS4.");
+    const Confirmation = confirm("هل تريد تحميل حمولة خادم FTP؟ سيؤدي هذا إلى تشغيل خادم FTP على جهاز PS4.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/ftp.bin");
         if (document.getElementById('log')) {
@@ -172,7 +172,7 @@ function load_ftp(){
 
 // History Blocker
 function load_history_blocker(){
-    const Confirmation = confirm("Load History Blocker payload? This will block browser history tracking.");
+    const Confirmation = confirm("هل تريد تحميل حمولة حظر السجل؟ سيؤدي هذا إلى حظر تتبع سجل المتصفح.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/history-blocker.bin");
         if (document.getElementById('log')) {
@@ -184,7 +184,7 @@ function load_history_blocker(){
 
 // PS4 Debug
 function load_ps4debug(){
-    const Confirmation = confirm("Load PS4Debug payload? This enables debugging features.");
+    const Confirmation = confirm("هل تريد تحميل حمولة PS4Debug؟ هذا يُفعّل ميزات التصحيح.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/ps4debug.bin");
         if (document.getElementById('log')) {
@@ -196,7 +196,7 @@ function load_ps4debug(){
 
 // PUP Decrypt
 function load_pup_decrypt(){
-    const Confirmation = confirm("Load PUP Decrypt payload? This allows decrypting PS4 update files.");
+    const Confirmation = confirm("هل تريد فك تشفير حمولة PUP؟ هذا يسمح بفك تشفير ملفات تحديث PS4.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/pup-decrypt.bin");
         if (document.getElementById('log')) {
@@ -208,7 +208,7 @@ function load_pup_decrypt(){
 
 // Restore
 function load_restore(){
-    const Confirmation = confirm("Load Restore payload? This will restore your system data.");
+    const Confirmation = confirm("هل تريد استعادة الحمولة؟ سيؤدي هذا إلى استعادة بيانات نظامك.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/restore.bin");
         if (document.getElementById('log')) {
@@ -220,7 +220,7 @@ function load_restore(){
 
 // RIF Renamer
 function load_rif_renamer(){
-    const Confirmation = confirm("Load RIF Renamer payload? This tool manages license files.");
+    const Confirmation = confirm("هل تريد تحميل حمولة إعادة تسمية RIF؟ هذه الأداة تُدير ملفات الترخيص.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/rif-renamer.bin");
         if (document.getElementById('log')) {
@@ -232,7 +232,7 @@ function load_rif_renamer(){
 
 // WebRTE
 function load_webrte(){
-    const Confirmation = confirm("Load WebRTE payload? This enables real-time editing features.");
+    const Confirmation = confirm("هل تريد تحميل حمولة WebRTE؟ هذا يُمكّنك من التحرير الفوري.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/WebRTE_900.bin");
         if (document.getElementById('log')) {
